@@ -1,4 +1,4 @@
-@(message: String, style: String = "scala") 
+@(message: String, style: String = "scala")
 
 @defining(play.core.PlayVersion.current) { version =>
 
@@ -23,6 +23,7 @@
         <a href="@routes.HealthCheckController.state">Click here to verify the system state</a>
     </p>
     <p>
+        <a href="@routes.CsvController.getCsvTemplate">Click here to obtain csv file template</a>
     </p>
 
 </article>
