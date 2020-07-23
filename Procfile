@@ -1,2 +1,2 @@
-web: target/universal/stage/bin/play-getting-started -Dhttp.port=${PORT}
-console: target/universal/stage/bin/play-getting-started -main scala.tools.nsc.MainGenericRunner -usejavacp
+web: target/universal/stage/bin/fira -Dhttp.port=5000
+console: target/universal/stage/bin/fira -main scala.tools.nsc.MainGenericRunner -usejavacp
